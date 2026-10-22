@@ -1,0 +1,11 @@
+name: Maintenance Drill
+
+on:
+  workflow_dispatch:
+
+jobs:
+  drill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm drill
+        run: echo "Maintenance drill workflow triggered successfully."
